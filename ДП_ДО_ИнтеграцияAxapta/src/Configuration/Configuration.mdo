@@ -27,7 +27,6 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <defaultLanguage>Language.Русский</defaultLanguage>
-  <compatibilityMode>8.3.22</compatibilityMode>
   <languages uuid="b8067887-22c1-49dd-96bc-b20dc09ac8d5" extendedConfigurationObject="f85e5a81-dc92-4a3e-b85d-2544ec13c70d">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>
@@ -39,6 +38,7 @@
   </languages>
   <commonModules>CommonModule.Axapta_ИнтеграцияAxapta</commonModules>
   <commonModules>CommonModule.Axapta_ОбщегоНазначения</commonModules>
+  <commonModules>CommonModule.Axapta_ОбщийМодульSQL</commonModules>
   <httpServices>HTTPService.Axapta_ИнтеграцияAxapta</httpServices>
   <catalogs>Catalog.Axapta_ВидыСхемИнтеграции</catalogs>
   <catalogs>Catalog.Организации</catalogs>
