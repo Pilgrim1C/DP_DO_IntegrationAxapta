@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6d84d7f2-54e0-48a5-a477-62faade9abfb" extendedConfigurationObject="2ff6bcab-48f9-42fd-a7da-f51bd3af0c8d">
+  <producedTypes>
+    <objectType typeId="3692affa-63db-41a5-aad2-bed083a17c6e" valueTypeId="a517ce15-26a9-4e24-a0aa-279f8d028b89"/>
+    <refType typeId="4f7e15c6-9a5e-4285-aa82-85302069fd68" valueTypeId="c1cb7bf7-3711-4c84-bcf7-dc890d074b93"/>
+    <selectionType typeId="ea045e99-bfca-4f73-af8e-56f3347bcfa0" valueTypeId="b410a4b1-b8ee-4956-b503-565957939da4"/>
+    <listType typeId="75effd19-be39-4cb8-8792-1369eeea9381" valueTypeId="a9ba93c1-48d8-4259-b64e-ca5e14d3b381"/>
+    <managerType typeId="0a4edc3e-f92a-4501-9ec8-5a412f4f98bf" valueTypeId="b340f540-097a-4840-8e40-9a279ca95767"/>
+  </producedTypes>
+  <name>ШаблоныВнутреннихДокументов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>
