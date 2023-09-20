@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="94a1ebd1-0076-428f-b9db-b801150c288b">
+  <name>Axapta_ОбщийМодульSQL</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общий модуль SQL</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>
