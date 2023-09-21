@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bf133554-63ae-4fbb-96cc-12f378a8a749">
+  <name>Axapta_ИнтеграцияAxapta</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция Axapta</value>
+  </synonym>
+  <rootURL>AxaptaIntegration</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="c885054d-97b8-4fc8-81a7-1512159bcb0b">
+    <name>ПолучитьВидыСхемИнтеграции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить виды схем интеграции</value>
+    </synonym>
+    <template>/typesSchemes</template>
+    <methods uuid="eb03a585-2e19-4939-bc0f-ba80234f6235">
+      <name>get</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получить виды схем</value>
+      </synonym>
+      <handler>getTypesSchemes</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

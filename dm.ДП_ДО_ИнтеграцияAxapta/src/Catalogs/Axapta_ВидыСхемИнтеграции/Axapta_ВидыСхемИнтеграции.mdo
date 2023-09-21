@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1800a58a-1cc0-4a39-a3ab-88ba300b6034">
+  <producedTypes>
+    <objectType typeId="23a2c7b8-d690-438d-aa0e-a8995dc42fc2" valueTypeId="8b72fbc4-07b7-4dec-8b96-7204083ae3d3"/>
+    <refType typeId="9dd34a88-2264-4259-924a-4bc5e69fd426" valueTypeId="94884fc2-4e4f-4917-9e81-f1f290aa0499"/>
+    <selectionType typeId="807b1128-9712-443f-a82c-0433d31c674d" valueTypeId="82a8d727-6d94-46dd-a356-162c050039de"/>
+    <listType typeId="c7224a89-2424-40db-8f6c-a5e06f4f1c67" valueTypeId="cfda6154-55e3-47a5-bb99-f8c38de6ac9b"/>
+    <managerType typeId="84410f44-afad-4485-a978-e9b0e1ba8ccc" valueTypeId="b76bb60a-d6bf-47a5-a66c-c00d003bb98c"/>
+  </producedTypes>
+  <name>Axapta_ВидыСхемИнтеграции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды схем интеграции</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Axapta_ВидыСхемИнтеграции.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Axapta_ВидыСхемИнтеграции.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Виды схем интеграции</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Виды схем интеграции</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Axapta_ВидыСхемИнтеграции.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Axapta_ВидыСхемИнтеграции.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Axapta_ВидыСхемИнтеграции.Form.ФормаВыбора</defaultChoiceForm>
+  <tabularSections uuid="1a40ff53-7cab-441c-bd90-fcf698ae8277">
+    <producedTypes>
+      <objectType typeId="21045d88-dce2-4b30-8fb5-8ca0d84e7ee1" valueTypeId="d174908a-93d5-4cb2-832b-6c8ce9c6894c"/>
+      <rowType typeId="b0f9c3d9-ea56-465c-8a20-7799a9fd1b80" valueTypeId="f51905b8-e1af-48eb-97d6-4789b1b2813d"/>
+    </producedTypes>
+    <name>Обработчики</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработчики</value>
+    </synonym>
+    <attributes uuid="dbfdd6d8-bfd4-4800-a5e8-68c6f29b6829">
+      <name>ИмяОбработчика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя </value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="745f7dc3-7eeb-4f6e-9e5b-26553bdb171a">
+      <name>СинонимОбработчика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Синоним</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="6ae65687-d1db-4756-a23b-b4e55eee86ed">
+    <producedTypes>
+      <objectType typeId="8038a577-517b-4c86-a073-7ea630f12f2b" valueTypeId="221c36a3-a4fc-42a2-b90d-ca55f98ac378"/>
+      <rowType typeId="390b4372-2116-4cc0-9fce-f5f4fdc66d6a" valueTypeId="ac793459-ba7a-4386-92c1-2f120b0f4ab6"/>
+    </producedTypes>
+    <name>ШаблоныВнутреннихДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблоны внутренних документов</value>
+    </synonym>
+    <attributes uuid="991b2f7d-227a-4635-967c-e9c2919a63da">
+      <name>Шаблон</name>
+      <synonym>
+        <key>ru</key>
+        <value>Шаблон</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ШаблоныВнутреннихДокументов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="76078d3b-7af5-47c2-8d35-5629a2df8220">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4d364c1e-fb38-4e59-86a1-2bb5f11a9f17">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e09a0052-0314-4712-ab2b-e81708a16b07">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d0db9a98-7fe7-49a4-bee6-800942b3b524">
+    <name>ФормаВыбораОбработчика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбрать обработчики</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
