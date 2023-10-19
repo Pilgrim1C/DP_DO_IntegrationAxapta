@@ -11,6 +11,26 @@
   </synonym>
   <comment>Загрузка поступления нового автомобиля с фильтром по VIN номеру</comment>
   <useStandardCommands>true</useStandardCommands>
+  <attributes uuid="e3b3ca04-ca08-4b8a-9af5-f319bdc4333d">
+    <name>ВИННомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>VIN номер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <types>Number</types>
+      <types>CatalogRef.Номенклатура</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
   <attributes uuid="37310ac9-ed05-4b4e-969b-a9b1d4d3b361">
     <name>Организация</name>
     <synonym>
@@ -31,26 +51,6 @@
     </synonym>
     <type>
       <types>CatalogRef.Axapta_Склад</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-  </attributes>
-  <attributes uuid="e3b3ca04-ca08-4b8a-9af5-f319bdc4333d">
-    <name>ВИННомер</name>
-    <synonym>
-      <key>ru</key>
-      <value>VIN номер</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <types>Number</types>
-      <types>CatalogRef.Номенклатура</types>
-      <numberQualifiers>
-        <precision>10</precision>
-      </numberQualifiers>
-      <stringQualifiers>
-        <length>10</length>
-      </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

@@ -36,14 +36,23 @@
     </extension>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.Axapta_Интеграция</subsystems>
+  <commonPictures>CommonPicture.Axapta_Интеграция48</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеHTTPСервисы</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеWebСервисыОперацииПараметры</commonPictures>
+  <commonPictures>CommonPicture.ПредметЗаполняемый16ПометкаУдаления</commonPictures>
   <commonModules>CommonModule.Axapta_ИнтеграцияAxapta</commonModules>
   <commonModules>CommonModule.Axapta_ОбщегоНазначения</commonModules>
   <httpServices>HTTPService.Axapta_ИнтеграцияAxapta</httpServices>
+  <catalogs>Catalog.Axapta_WSОперации</catalogs>
+  <catalogs>Catalog.Axapta_WSОпределения</catalogs>
+  <catalogs>Catalog.Axapta_WSПрокси</catalogs>
   <catalogs>Catalog.Axapta_ВидыСхемИнтеграции</catalogs>
-  <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.Axapta_Склад</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.ШаблоныВнутреннихДокументов</catalogs>
-  <dataProcessors>DataProcessor.Axapta_Обработчик_ПНА_ПоВИН</dataProcessors>
+  <reports>Report.Axapta_Отчет</reports>
   <dataProcessors>DataProcessor.Axapta_Обработчик_ПНА_ЗаПериод</dataProcessors>
+  <dataProcessors>DataProcessor.Axapta_Обработчик_ПНА_ПоВИН</dataProcessors>
 </mdclass:Configuration>

@@ -110,24 +110,6 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
-  <forms uuid="76078d3b-7af5-47c2-8d35-5629a2df8220">
-    <name>ФормаЭлемента</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма элемента</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="4d364c1e-fb38-4e59-86a1-2bb5f11a9f17">
-    <name>ФормаСписка</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма списка</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
   <forms uuid="e09a0052-0314-4712-ab2b-e81708a16b07">
     <name>ФормаВыбора</name>
     <synonym>
@@ -142,6 +124,24 @@
     <synonym>
       <key>ru</key>
       <value>Выбрать обработчики</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4d364c1e-fb38-4e59-86a1-2bb5f11a9f17">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="76078d3b-7af5-47c2-8d35-5629a2df8220">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
